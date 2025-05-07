@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jadwal Pendadaran Mahasiswa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #fff;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      margin-top: 20px;
+      font-size: 24px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .edit, .delete {
+      padding: 5px 10px;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+    .edit {
+      background-color: #3498db;
+    }
+    .delete {
+      background-color: #e74c3c;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p>Nama Mahasiswa : Dinda Aidiyah Ruslan</p>
+    <p>NIM Mahasiswa : 231110047</p>
+
+    <h2>Tabel Jadwal Pendadaran Mahasiswa</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>NIM</th>
+          <th>Jurusan</th>
+          <th>Waktu</th>
+          <th>Dosen Penguji</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mhd Bayu Aliansyah Putra</td>
+          <td>5231011024</td>
+          <td>Teknik Komputer</td>
+          <td>24 April 2025, Pukul 09:04</td>
+          <td>Bapak ABC</td>
+          <td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+          <td>Yuliana Benga Ola</td>
+          <td>231110029</td>
+          <td>Informatika</td>
+          <td>24 April 2025, Pukul 10:25</td>
+          <td>Bapak ABC</td>
+          <td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+          <td>Chayaning Kelwalaga</td>
+          <td>231110022</td>
+          <td>Informatika</td>
+          <td>24 April 2025, Pukul 12:50</td>
+          <td>Bapak ABC</td>
+          <td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

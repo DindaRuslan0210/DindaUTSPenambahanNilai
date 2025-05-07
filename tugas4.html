@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rental Kamera</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    .info {
+      padding: 20px;
+      font-size: 16px;
+      background-color: #fff;
+    }
+    .hero {
+      background-image: url("backgroundkamera.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 12px;
+    }
+    input, select, button {
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: none;
+    }
+    button {
+      background-color: #28a745;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="info">
+    <p>Nama Mahasiswa : <strong>Dinda Aidiyah Ruslan</strong></p>
+    <p>NIM Mahasiswa : <strong>231110047</strong></p>
+  </div>
+
+  <div class="hero">
+    <div class="overlay">
+      <h1>Rental Kamera</h1>
+      <p>Isi form untuk cek ketersediaan kamera</p>
+      <form>
+        <label for="tanggalPinjam">Tanggal Pinjam</label><br>
+        <input type="date" id="tanggalPinjam" name="tanggalPinjam"><br>
+
+        <label for="tanggalKembali">Tanggal Kembali</label><br>
+        <input type="date" id="tanggalKembali" name="tanggalKembali"><br>
+
+        <label for="kamera">Pilih Kamera</label><br>
+        <select id="kamera" name="kamera">
+          <option>Kamera Nikon</option>
+          <option>Kamera Canon</option>
+          <option>Kamera Sony</option>
+        </select><br><br>
+
+        <button type="submit">Cek Ketersediaan</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
+

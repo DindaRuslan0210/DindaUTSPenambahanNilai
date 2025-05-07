@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #007bff, #1e3c72);
+      color: white;
+      text-align: center;
+      margin: 0;
+    }
+    .container {
+      margin-top: 60px;
+    }
+    .login-box {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 25px 30px;
+      border-radius: 10px;
+      margin: auto;
+      width: 300px;
+      backdrop-filter: blur(5px);
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: none;
+      border-radius: 5px;
+    }
+    button {
+      margin-top: 15px;
+      width: 100%;
+      padding: 10px;
+      background-color: #fdbb2d;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Form Login</h2>
+    <p>Dibuat oleh: <strong>Dinda Aidiyah Ruslan</strong></p>
+    <p>NIM: 231110047</p>
+    <div class="login-box">
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
